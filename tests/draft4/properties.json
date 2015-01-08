@@ -29,9 +29,9 @@
                 "valid": true
             },
             {
-                "description": "ignores non-objects",
-                "data": [],
-                "valid": true
+                "description": "handles non-objects",
+                "data": "a",
+                "valid": false
             }
         ]
     },

@@ -14,9 +14,9 @@
                 "valid": false
             },
             {
-                "description": "ignores non-strings",
+                "description": "handles non-strings",
                 "data": true,
-                "valid": true
+                "valid": false
             }
         ]
     }

@@ -19,9 +19,9 @@
                 "valid": false
             },
             {
-                "description": "ignores non-objects",
-                "data": [1, 2, 3],
-                "valid": true
+                "description": "handles non-objects",
+                "data": "a",
+                "valid": false
             },
             {
                 "description": "patternProperties are not additional properties",
@@ -51,25 +51,6 @@
             {
                 "description": "an additional invalid property is invalid",
                 "data": {"foo" : 1, "bar" : 2, "quux" : 12},
-                "valid": false
-            }
-        ]
-    },
-    {
-        "description":
-            "additionalProperties can exist by itself",
-        "schema": {
-            "additionalProperties": {"type": "boolean"}
-        },
-        "tests": [
-            {
-                "description": "an additional valid property is valid",
-                "data": {"foo" : true},
-                "valid": true
-            },
-            {
-                "description": "an additional invalid property is invalid",
-                "data": {"foo" : 1},
                 "valid": false
             }
         ]
