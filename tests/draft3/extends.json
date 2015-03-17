@@ -53,7 +53,7 @@
             {
                 "description": "valid",
                 "data": {"foo": "quux", "bar": 2, "baz": null},
-                "valid": true
+                "valid": false
             },
             {
                 "description": "mismatch first extends",
