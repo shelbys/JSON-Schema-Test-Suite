@@ -58,6 +58,11 @@
                 "valid": true
             },
             {
+              "description": "empty string is valid for optional property",
+              "data": {"bar": "bar", "foo": ""},
+              "valid": true
+            },
+            {
                 "description": "missing required property is invalid",
                 "data": {"foo":"foo"},
                 "valid": false

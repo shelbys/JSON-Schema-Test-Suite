@@ -14,6 +14,11 @@
                 "valid": false
             },
             {
+              "description": "empty string is valid",
+              "data": "",
+              "valid": true
+            },
+            {
                 "description": "handles non-strings",
                 "data": true,
                 "valid": false
