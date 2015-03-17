@@ -25,9 +25,9 @@
                 "valid": true
             },
             {
-                "description": "something else is invalid",
+                "description": "null is valid data",
                 "data": null,
-                "valid": false
+                "valid": true
             },
             {
                 "description": "objects are deep compared",
